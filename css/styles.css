@@ -75,7 +75,7 @@ align-items: center;
   /* display: inline-block;
 	position: relative;
 	width: 100%;
-	/* padding-bottom: 100%;  */
+	padding-bottom: 100%; 
 	vertical-align: middle; 
 	overflow: hidden; */
 }
@@ -114,6 +114,13 @@ align-items: center;
   font-size: 18px;
   font-weight: 400;
   color: var(--violet);
+  transition: all 250ms ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.details a:hover {
+  background-color: var(--soft-magenta);
+  color: white;
 }
 
 footer {
